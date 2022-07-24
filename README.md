@@ -7,6 +7,7 @@ version of this branch using Zephyr 3.0 is available [here](https://github.com/u
 Below is a list of features
 currently included in the `main` branch *on top of* the official ZMK master branch.
 
+<<<<<<< HEAD
 * **mouse** (PR [#778](https://github.com/zmkfirmware/zmk/pull/778)) - official PR + ftc's changes + [fixes needed for Zephyr 3.2](https://github.com/urob/zmk/tree/mouse-3.2)
 * **swapper** (PR [#1366](https://github.com/zmkfirmware/zmk/pull/1366)) - official PR + fixes needed for Zephyr 3.2
 * **global-quick-tap-ms** (PR [#1387](https://github.com/zmkfirmware/zmk/pull/1387)) - official PR
@@ -16,6 +17,17 @@ currently included in the `main` branch *on top of* the official ZMK master bran
 * **on-release-for-tap-preferred** - [on-release feature for tap-preferred](https://github.com/celejewski/zmk/commit/d7a8482712d87963e59b74238667346221199293) by Andrzej
 * **adv360pro** - driver + [alternate matrix transform](https://github.com/urob/adv360-demo-config#alternate-matrix-transform) 
 * **zen-tweaks** - [display & battery improvements](https://github.com/caksoylar/zmk/tree/caksoylar/zen-v1%2Bv2) by Cem Aksoylar
+||||||| parent of 98c57ea2 (Keep track of PRs in this branch)
+Check out the website to learn more: https://zmk.dev/
+=======
+* **mouse** (PR [#778](https://github.com/zmkfirmware/zmk/pull/778)) - official PR + ftc's changes + [fixes needed for Zephyr 3.2](https://github.com/urob/zmk/tree/mouse-3.2)
+* **swapper** (PR [#1366](https://github.com/zmkfirmware/zmk/pull/1366)) - official PR + fixes needed for Zephyr 3.2
+* **global-quick-tap-ms** (PR [#1387](https://github.com/zmkfirmware/zmk/pull/1387)) - official PR
+* **smart-word** (PR [#1451](https://github.com/zmkfirmware/zmk/pull/1451)) - official PR, updated to Zephyr-3.2
+* **on-release-for-tap-preferred** - [on-release feature for tap-preferred](https://github.com/celejewski/zmk/commit/d7a8482712d87963e59b74238667346221199293) by Andrzej
+* **adv360pro** - driver + [alternate matrix transform](https://github.com/urob/adv360-demo-config#alternate-matrix-transform) 
+* **zen-tweaks** - display & battery improvements by Cem Aksoylar
+>>>>>>> 98c57ea2 (Keep track of PRs in this branch)
 
 In order to use this branch with Github Actions, replace the contents of `west.yml` in
 your `zmk-config/config` directory with the following contents:
